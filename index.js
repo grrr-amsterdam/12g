@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var assert = require('assert');
 var env = require('node-env-file');
 var cli = require('cli');
