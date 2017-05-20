@@ -1,6 +1,6 @@
 {
   "name": "12g",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Administration tool for development and devops, according to the 12factor principles as applied by @grrr-amsterdam.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "preferGlobal": true,
   "homepage": "https://github.com/grrr-amsterdam/12g#readme",
   "bin": {
-    "12g": "index.js"
+    "12g": "./index.js"
   },
   "dependencies": {
     "cli": "^1.0.1",
