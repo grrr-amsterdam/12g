@@ -1,17 +1,20 @@
 #!/usr/bin/env node
 //var util = require('util')
-var sc = require( 'subcommander' );
+var sc = require('subcommander');
+var db = require('./lib/db.js');
  
 sc.command( 'version', {
     desc: 'display app\'s version',
     callback: function () {
+        // @todo: show package.json version
         console.log( 'version' );
     }
 } );
  
-var srv = sc.command( 'server', {
-        desc: 'handle the server'
-    } )
+var dbc = sc.command('db', {
+        desc: 'Handle database content'
+    })
+    /*
     .option( 'port', {
         abbr: 'p',
         desc: 'Server port',
@@ -21,21 +24,26 @@ var srv = sc.command( 'server', {
         abbr: 'H',
         desc: 'Server hostname'
     } );
+   */
+;
     
-srv.command( 'start', {
-    desc: 'start the server',
+dbc.command('migrate', {
+    desc: 'Migrate database content between environments',
     callback: function ( options ) {
-        var port = options.port,
-            hostname = options.hostname;
+        // @todo
+        db.migrate();
+        //var port = options.port,
+        //hostname = options.hostname;
  
-        console.log( port, hostname );
+        //console.log( port, hostname );
     }
 } );
  
-srv.command( 'stop', {
-    desc: 'stop the server',
+dbc.command('backup', {
+    desc: 'Backup a database',
     callback: function () {
-        // callback body 
+        db.backup();
+        // @todo
     }
 } );
  
