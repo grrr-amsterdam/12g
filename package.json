@@ -21,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/grrr-amsterdam/12g/issues"
   },
+  "preferGlobal": true,
   "homepage": "https://github.com/grrr-amsterdam/12g#readme",
   "bin": {
     "12g": "index.js"
