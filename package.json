@@ -1,6 +1,6 @@
 {
   "name": "12g",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Administration tool for development and devops, according to the 12factor principles as applied by @grrr-amsterdam.",
   "main": "index.js",
   "scripts": {
