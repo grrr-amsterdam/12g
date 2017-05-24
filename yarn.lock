@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"12g-env-template@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/12g-env-template/-/12g-env-template-1.0.2.tgz#63658d8250a08c6e0fbab53660981f0a30f7fbb9"
+
 ambi@^2.4.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/ambi/-/ambi-2.5.0.tgz#7c8e372be48891157e7cea01cb6f9143d1f74220"
