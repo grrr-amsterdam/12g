@@ -20,4 +20,4 @@ $ 12g -h [command] [subcommand]
 ```bash
 $ 12g env template
 ```
-This will create a copy of the `.env` file, named `.env.template`, with all values emptied.
+This will create a copy of your local `.env` file, named `.env.template`, with all values emptied.
