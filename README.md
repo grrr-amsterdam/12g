@@ -15,9 +15,23 @@ $ npm install -g 12g
 $ 12g -h [command] [subcommand]
 ```
 
-### Environments
-#### Create a template .env file
+### Environment
+#### Create a template `.env` file
 ```bash
 $ 12g env template
 ```
 This will create a copy of your local `.env` file, named `.env.template`, with all values emptied.
+
+
+#### List variables from a `.env` file
+```bash
+$ 12g env list -t [target environment name]
+```
+This will list the variables from the `.env` file on the target, without quotes or comments.
+
+
+#### Current environment
+```bash
+$ 12g env name
+```
+This will print out the name of the current environment.
