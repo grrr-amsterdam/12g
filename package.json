@@ -34,6 +34,7 @@
     "lodash": "^4.17.4",
     "mysqldump": "^1.4.2",
     "node-env-file": "^0.1.8",
+    "shelljs": "^0.7.7",
     "subcommander": "^1.0.0"
   }
 }
