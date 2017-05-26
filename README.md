@@ -28,9 +28,12 @@ This will create a copy of your local `.env` file, named `.env.template`, with a
 
 #### List variables from a `.env` file
 ```bash
-$ 12g env list -t [target environment name]
+$ 12g env list -e [target environment name]
 ```
 This will list the variables from the `.env` file on the target, without quotes or comments.
+Target environment is probably `development`, `staging`, `production`, etcetera, depending on your setup.
+
+If the targeted environment is remote, an SSH connection will be attempted, if Capistrano configuration can be found.
 
 
 #### Current environment
