@@ -55,8 +55,8 @@ brace-expansion@^1.1.7:
     concat-map "0.0.1"
 
 capistrano-ssh-wrapper@^1.0.0:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/capistrano-ssh-wrapper/-/capistrano-ssh-wrapper-1.0.6.tgz#72315722f419281aa20b6e1e04160970c387f9ca"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/capistrano-ssh-wrapper/-/capistrano-ssh-wrapper-1.0.7.tgz#33487b996c10d64530b85503afc0f68ed66378bb"
   dependencies:
     fs "^0.0.1-security"
     shelljs "^0.7.7"
