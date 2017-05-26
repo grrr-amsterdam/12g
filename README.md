@@ -1,6 +1,7 @@
 # 12g
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/grrr-amsterdam/12g.svg)](https://greenkeeper.io/)
+
 Administration tool for development and devops, according to the 12factor principles as applied by [Grrr](https://github.com/grrr-amsterdam)
 
 
