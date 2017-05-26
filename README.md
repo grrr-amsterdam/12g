@@ -41,3 +41,18 @@ If the targeted environment is remote, an SSH connection will be attempted, if C
 $ 12g env name
 ```
 This will print out the name of the current environment.
+
+## Shorthand
+You can use shorthand syntax in the provided argument for common environment names:
+
+ * 'p' becomes production
+ * 's' becomes staging
+ * 'i' becomes integration
+ * 'd' becomes development
+ * 't' becomes testing
+
+For instance:
+```bash
+$ 12g env list -e s
+```
+To list the environment for `staging`.
