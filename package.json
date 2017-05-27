@@ -35,6 +35,7 @@
     "cli-table2": "^0.2.0",
     "mysqldump": "^1.4.2",
     "net": "^1.0.2",
+    "sequelize": "^3.30.4",
     "shelljs": "^0.7.7",
     "subcommander": "^1.0.0"
   }
