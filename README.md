@@ -45,11 +45,11 @@ This will print out the name of the current environment.
 ## Shorthand
 You can use shorthand syntax in the provided argument for common environment names:
 
- * 'p' becomes production
- * 's' becomes staging
- * 'i' becomes integration
- * 'd' becomes development
- * 't' becomes testing
+ * `p` becomes `production`
+ * `s` becomes `staging`
+ * `i` becomes `integration`
+ * `d` becomes `development`
+ * `t` becomes `testing`
 
 For instance:
 ```bash
