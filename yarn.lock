@@ -123,6 +123,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+coffeescript@^1.12.6:
+  version "1.12.6"
+  resolved "https://registry.yarnpkg.com/coffeescript/-/coffeescript-1.12.6.tgz#dcbf2be5b64ce66505cb43c4ed7f1b44cb90f33c"
+
 colors@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
@@ -328,6 +332,15 @@ mq-node@^1.0.7:
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
+mysql-ssh@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mysql-ssh/-/mysql-ssh-1.0.1.tgz#08c6c191e0b40ace617353eae8c940ea6ab6c2e3"
+  dependencies:
+    coffeescript "^1.12.6"
+    fs "^0.0.1-security"
+    mysql2 "^1.2.0"
+    ssh2 "^0.5.4"
 
 mysql2@^1.2.0:
   version "1.2.0"
