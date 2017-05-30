@@ -44,6 +44,19 @@ $ 12g env name
 ```
 This will print out the name of the current environment.
 
+### Docker shortcut
+Use `12g dock [command]` to execute a Docker command directly on your Docker Compose webserver.
+It has to be running and it will have to adhere to the naming standards as we use them at
+@grrr-amsterdam, which is basically calling your httpd service 'web'.
+
+Examples:
+```bash
+$ 12g dock bash
+$ 12g dock g spawn
+$ 12g dock g snippet create
+```
+
+
 ## Shorthand
 You can use shorthand syntax in the provided argument for common environment names:
 
