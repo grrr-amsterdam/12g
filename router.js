@@ -7,6 +7,7 @@ var sc = require('subcommander');
 require('./lib/db/router.js').commands(sc);
 require('./lib/env/router.js').commands(sc);
 require('./lib/version/router.js').commands(sc);
+require('./lib/dock/router.js').commands(sc);
  
 sc.option( 'help', {
     abbr: 'h',
