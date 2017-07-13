@@ -37,6 +37,13 @@ Target environment is probably `development`, `staging`, `production`, etcetera,
 
 If the targeted environment is remote, an SSH connection will be attempted, if Capistrano configuration can be found.
 
+##### Json
+Default the values will be pretty-printed, but listing in JSON is also possible:
+```bash
+$ 12g env list -e [target environment name] -o json
+```
+`-o` or `--output` sets the output format.
+
 
 #### Current environment
 ```bash
