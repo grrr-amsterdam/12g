@@ -28,7 +28,7 @@ describe('List', function() {
     describe('#env list --output=json', function() {
         it('should return a json list', function() {
             var result = lister.list(mockvars, 'json')
-            assert(typeof result === 'object', 'Is an object')
+            assert.equal(result, '{"FOO":"Foo","BAR":"Bar"}', "Is valid JSON");
         })
     })
     //describe('#initialize', function() {
