@@ -27,15 +27,23 @@ $ 12g env template
 ```
 This will create a copy of your local `.env` file, named `.env.template`, with all values emptied.
 
+#### Get variable from a `.env` file
+```bash
+$ 12g env get -e [target environment name] --var=DB_HOST
+```
+This will print the value from the environment variable set in the `.env` file on the target.
+Will return `undefined` if the variable is not set.
 
 #### List variables from a `.env` file
 ```bash
 $ 12g env list -e [target environment name]
 ```
 This will list the variables from the `.env` file on the target, without quotes or comments.
-Target environment is probably `development`, `staging`, `production`, etcetera, depending on your setup.
+Target environment is probably `development`, `staging`, `production`, etcetera,
+depending on your setup.
 
-If the targeted environment is remote, an SSH connection will be attempted, if Capistrano configuration can be found.
+If the targeted environment is remote, an SSH connection will be attempted, 
+if Capistrano configuration can be found.
 
 ##### Json
 Default the values will be pretty-printed, but listing in JSON is also possible:
