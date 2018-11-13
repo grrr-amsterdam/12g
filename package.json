@@ -41,7 +41,7 @@
     "mysql2": "^1.2.0",
     "mysqldump": "^1.4.2",
     "path": "^0.12.7",
-    "shelljs": "^0.8.1",
+    "shelljs": "^0.8.3",
     "subcommander": "^1.0.0"
   }
 }
