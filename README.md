@@ -2,10 +2,15 @@
 
 [![Build Status](https://travis-ci.org/grrr-amsterdam/12g.svg)](https://travis-ci.org/grrr-amsterdam/12g)
 [![Greenkeeper badge](https://badges.greenkeeper.io/grrr-amsterdam/12g.svg)](https://greenkeeper.io/)
-[![Dependencies](https://david-dm.org/grrr-amsterdam/12g.svg)](https://david-dm.org/grrr-amsterdam/12g)
 
-Administration tool for development and devops, according to the 12factor principles as applied by [Grrr](https://github.com/grrr-amsterdam)
+Administration tool for development and devops, according to the 12factor principles as applied by [GRRR](https://github.com/grrr-amsterdam).
 
+## Developed with ❤️ by [GRRR](https://grrr.nl)
+
+- GRRR is a [B Corp](https://grrr.nl/en/b-corp/)
+- GRRR has a [tech blog](https://grrr.tech/)
+- GRRR is [hiring](https://grrr.nl/en/jobs/)
+- [@GRRRTech](https://twitter.com/grrrtech) tweets
 
 ## Install
 ```bash
